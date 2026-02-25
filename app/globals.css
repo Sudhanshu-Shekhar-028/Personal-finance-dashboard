@@ -1,26 +1,39 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    /* Light Mode - Soft & Airy */
+    --background-primary: #F8FAFC;  /* Slate 50 */
+    --background-surface: #FFFFFF;
+    --background-elevated: #FFFFFF;
+    
+    --text-primary: #1E293B;        /* Slate 800 */
+    --text-secondary: #64748B;      /* Slate 500 */
+    
+    --accent-primary: #4F46E5;      /* Indigo 600 */
+    --accent-success: #10B981;      /* Emerald 500 */
+    --accent-danger: #EF4444;       /* Red 500 */
   }
-}
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  .dark {
+    /* Dark Mode - Deep & Premium */
+    --background-primary: #0F1115;  /* Gradient Start */
+    --background-surface: #222834;  /* Cards */
+    --background-elevated: #1A1F27; /* Main Panel */
+    --sidebar-background: #202631;  /* Sidebar */
+    
+    --text-primary: #E6E9EF;
+    --text-secondary: #AAB1C0;
+    --text-muted: #7F8896;
+    
+    --accent-primary: #6366F1;      /* Indigo 500 */
+    --accent-success: #4ADE80;      /* Emerald 400 */
+    --accent-danger: #F87171;       /* Red 400 */
+  }
+
+  body {
+    @apply bg-background-primary text-text-primary antialiased;
+  }
 }
