@@ -1,7 +1,5 @@
 # Personal Finance Dashboard
 
-[![Ask DeepWiki](https://devin.ai/assets/askdeepwiki.png)](https://deepwiki.com/Sudhanshu-Shekhar-028/Personal-finance-dashboard)
-
 A modern, responsive personal finance dashboard designed to help you track your income, expenses, savings goals, and account balances with ease. This application is built with Next.js, TypeScript, and Tailwind CSS, and it uses local storage for data persistence, making it a completely client-side solution.
 
 ## Features
