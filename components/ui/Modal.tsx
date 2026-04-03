@@ -42,7 +42,7 @@ export function Modal({ isOpen, onClose, title, children, className }: ModalProp
         onClick={onClose}
       />
       <div className={cn(
-        "relative w-full max-w-lg transform rounded-xl bg-white p-6 shadow-xl transition-all",
+        "relative w-full max-w-lg transform rounded-xl bg-background-surface p-6 shadow-xl transition-all border border-gray-200 dark:border-gray-800",
         className
       )}>
         <div className="flex items-center justify-between mb-5">

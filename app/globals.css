@@ -12,25 +12,25 @@
     --text-primary: #1E293B;        /* Slate 800 */
     --text-secondary: #64748B;      /* Slate 500 */
     
-    --accent-primary: #4F46E5;      /* Indigo 600 */
+    --accent-primary: #2563EB;      /* Blue 600 */
     --accent-success: #10B981;      /* Emerald 500 */
     --accent-danger: #EF4444;       /* Red 500 */
   }
 
   .dark {
-    /* Dark Mode - Deep & Premium */
-    --background-primary: #0F1115;  /* Gradient Start */
-    --background-surface: #222834;  /* Cards */
-    --background-elevated: #1A1F27; /* Main Panel */
-    --sidebar-background: #202631;  /* Sidebar */
+    /* Dark Mode - Claryxa Design System */
+    --background-primary: #000000;
+    --background-surface: #1c1c1e;
+    --background-elevated: #2c2c2e;
+    --sidebar-background: #1c1c1e;
     
-    --text-primary: #E6E9EF;
-    --text-secondary: #AAB1C0;
-    --text-muted: #7F8896;
+    --text-primary: #ffffff;
+    --text-secondary: #8e8e93;
+    --text-muted: #48484a;
     
-    --accent-primary: #6366F1;      /* Indigo 500 */
-    --accent-success: #4ADE80;      /* Emerald 400 */
-    --accent-danger: #F87171;       /* Red 400 */
+    --accent-primary: #0a84ff;
+    --accent-success: #30d158;
+    --accent-danger: #ff453a;
   }
 
   body {

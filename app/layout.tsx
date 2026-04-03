@@ -8,7 +8,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Finance Dashboard",
+  title: "My Finances",
   description: "Personal finance tracking application",
 };
 
@@ -22,8 +22,8 @@ export default function RootLayout({
       <body className={cn(inter.className, "antialiased bg-background-primary text-text-primary")}>
         <ThemeProvider
             attribute="class"
-            defaultTheme="system"
-            enableSystem
+            defaultTheme="light"
+            enableSystem={false}
             disableTransitionOnChange
           >
           <AppLayout>

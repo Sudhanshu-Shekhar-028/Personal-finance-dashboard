@@ -26,10 +26,10 @@ const config: Config = {
         foreground: "var(--text-primary)", 
         primary: {
           DEFAULT: "var(--accent-primary)", 
-          hover: "#4A5FD9",   
+          hover: "#1D4ED8",   
         },
-        secondary: "#4A5FD9", 
-        navy: "#1A2254",      
+        secondary: "#1D4ED8", 
+        navy: "#1E3A8A",      
         surface: "var(--background-surface)",   
         muted: "#9CA3AF", // Updated to a lighter gray for better dark mode text 
       },
